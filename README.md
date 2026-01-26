@@ -1,12 +1,12 @@
-Email Spam Classifier
+# Email Spam Classifier
 
 A machine learning-based email spam classifier built in Python. This project detects whether an email is spam or ham (not spam) using NLP techniques and scikit-learn models. It also features a Streamlit web app for real-time predictions.
 
-Project Overview
+## Project Overview
 
 Emails are an essential form of communication, but spam emails waste time and can pose security risks. This project implements a robust spam detection system using natural language processing (NLP) and machine learning.
 
-Key Features:
+## Key Features:
 
 Classifies emails as Spam or Ham.
 
@@ -16,7 +16,7 @@ Supports real-time predictions via a Streamlit app.
 
 Saves vectorizer and model as .pkl files for easy reuse.
 
-Tech Stack
+## Tech Stack
 
 Language: Python 3.x
 
@@ -26,7 +26,7 @@ Machine Learning Models: LinearSVC, LogisticRegression (for experimentation)
 
 Tools: Jupyter Notebook, VS Code / PyCharm
 
-Project Structure
+## Project Structure
 Email_Spam_Classifier_Project/
 │
 ├── app.py                # Streamlit application
@@ -36,7 +36,7 @@ Email_Spam_Classifier_Project/
 ├── .gitignore            # Git ignore file
 └── README.md             # Project documentation
 
-Setup and Installation
+## Setup and Installation
 
 Clone the repository:
 
@@ -44,40 +44,40 @@ git clone https://github.com/joshiyash710/Email-Spam-Classifier.git
 cd Email-Spam-Classifier
 
 
-Create and activate a virtual environment:
+## Create and activate a virtual environment:
 
 python -m venv spam-env
-# Windows
+#### Windows
 spam-env\Scripts\activate
-# macOS/Linux
+#### macOS/Linux
 source spam-env/bin/activate
 
 
-Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run the Streamlit app:
+### Run the Streamlit app:
 
 streamlit run app.py
 
 
 Open the provided URL in your browser to test the spam classifier.
 
-Usage
+## Usage
 
 You can test the classifier by entering email content in the Streamlit app.
 Examples:
 
-Spam Email:
+### Spam Email:
 
 Congratulations! You won a lottery. Claim your prize now!
 
 
 Predicted: Spam
 
-Ham Email:
+### Ham Email:
 
 Hi, can we meet tomorrow for lunch?
 
